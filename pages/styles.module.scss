@@ -1,0 +1,21 @@
+$primary-light:#D3EEFF;
+$primary-light-soft:#82C0D9;
+$primary-medium:#4B8CA6;
+$primary-dark-soft:#025373;
+$primary-dark:#023859;
+
+
+.homepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $primary-light;
+    color:$primary-dark;
+}
+
+.ul{
+    initial-letter: 1.5; 
+}
