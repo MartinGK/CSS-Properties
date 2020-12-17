@@ -1,21 +1,56 @@
-$primary-light:#D3EEFF;
-$primary-light-soft:#82C0D9;
-$primary-medium:#4B8CA6;
-$primary-dark-soft:#025373;
-$primary-dark:#023859;
+$primary-light: #d3eeff;
+$primary-light-soft: #82c0d9;
+$primary-medium: #4b8ca6;
+$primary-dark-soft: #025373;
+$primary-dark: #023859;
 
-
-.homepage{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: $primary-light;
-    color:$primary-dark;
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: $primary-light;
+  color: $primary-dark;
 }
 
-.ul{
-    initial-letter: 1.5; 
+.ul {
+  initial-letter: 1.5;
+}
+
+.background {
+  &--primary-light {
+    background: $primary-light;
+  }
+  &--primary-light-soft {
+    background: $primary-light-soft;
+  }
+  &--primary-medium {
+    background: $primary-medium;
+  }
+  &--primary-dark-soft {
+    background: $primary-dark-soft;
+  }
+  &--primary-dark {
+    background: $primary-dark;
+  }
+}
+
+.color {
+  &--primary-light {
+    color: $primary-light;
+  }
+  &--primary-light-soft {
+    color: $primary-light-soft;
+  }
+  &--primary-medium {
+    color: $primary-medium;
+  }
+  &--primary-dark-soft {
+    color: $primary-dark-soft;
+  }
+  &--primary-dark {
+    color: $primary-dark;
+  }
 }
