@@ -1,0 +1,23 @@
+.main-component{
+    width: 100vw;
+    height: 300vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 20fr;
+    position: relative;
+}
+.infoContainer{
+    position: sticky;
+    top: 0;
+}
+.objetive{
+    background: red;
+    padding: 20px;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    align-self: flex-end;
+}
+.uList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
